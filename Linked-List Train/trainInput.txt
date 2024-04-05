@@ -1,0 +1,65 @@
+PICKUP 6
+oil 40000
+wheat 20000
+lumber 30000
+engine
+oil 45000
+oil 60000
+PRINT
+DROPLAST 1
+PRINT
+PICKUP 8
+oil 50000
+lumber 25000
+wheat 25000
+oil 30000
+oil 45000
+wheat 20000
+lumber 20000
+oil 60000
+PRINT
+DROP oil 4
+PRINT
+DROPFIRST 3
+PRINT
+PICKUP 15
+oil 64000
+oil 51000
+lumber 28000
+wheat 29000
+oil 48000
+engine
+lumber 32000
+wheat 33000
+lumber 34000
+oil 54000
+oil 61000
+lumber 36000
+oil 59000
+wheat 30000
+wheat 20000
+PRINT
+DROP lumber 7
+PRINT
+DROPLAST 4
+PRINT
+DROP oil 5
+PRINT
+DROPFIRST 6
+PRINT
+PICKUP 10
+engine
+oil 64000
+oil 58000
+lumber 19000
+wheat 38000
+lumber 24000
+lumber 30000
+wheat 41000
+lumber 37000
+wheat 36000
+PRINT
+DROP lumber 2
+PRINT
+DROPLAST 12
+PRINT

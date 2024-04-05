@@ -1,0 +1,24 @@
+PICKUP 6
+oil 40000
+wheat 20000
+lumber 30000
+engine
+oil 45000
+oil 60000
+PRINT
+DROPLAST 1
+PRINT
+PICKUP 8
+oil 50000
+lumber 25000
+wheat 25000
+oil 30000
+oil 45000
+wheat 20000
+lumber 20000
+oil 60000
+PRINT
+DROP oil 4
+PRINT
+DROPFIRST 3
+PRINT
