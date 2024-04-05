@@ -1,0 +1,51 @@
+    REPORT
+
+     Q. Was insertion sort faster than selection sort? Why or why not?
+
+     A. Yes, insertion sort was faster than selection sort. The mean execution time
+     for insertion sort (3867208.0566666666 ns) is smaller than the mean execution
+     time for selection sort (1.753636594333333E7 ns). Insertion sort is generally more
+     efficient than selection sort for small to medium-sized arrays because it has a better
+     average and best-case time complexity of O(n) for partially sorted or nearly sorted
+     arrays, while selection sort has a time complexity of O(n^2) regardless of the input order.
+
+
+
+     Q. Was quick sort faster than insertion sort? Why or why not?
+
+     A. Yes, quick sort was faster than insertion sort. The mean execution time for
+     quick sort (373122.76666666666 ns) is significantly smaller than the mean execution
+     time for insertion sort (3867208.0566666666 ns). Quick sort has an average time
+     complexity of O(n*log(n)) and has good performance on average for a wide range of
+     input data. Whereas, insertion sort has a time complexity of O(n^2), which can
+     lead to slower execution times for larger arrays. Therefore, quick sort outperformed
+     insertion sort in this case.
+
+
+
+     Q. Was hybrid quick sort faster than quick sort? Why or why not?
+
+     A. Yes, hybrid quick sort was faster than quick sort. The mean execution time
+     for hybrid quick sort (301450.13 ns) is smaller than the mean execution time
+     for quick sort (373122.76666666666 ns). hybrid quicksort was faster than quicksort
+     because it used insertion sort for arrays smaller than the BREAKPOINT, which
+     performed better in terms of time complexity and overhead. By avoiding unnecessary
+     recursive calls and using insertion sort for small arrays, hybrid quicksort achieved
+     better overall performance.
+
+
+
+     Q. Which sort(s) would you recommend to others, and why?
+
+     A. I would recommend hybrid quicksort, since it has the smallest mean execution
+     time. It also uses insertion sort whenever needed which makes it more suitable
+     for using it for different data types.
+
+
+
+     Q. Which sort(s) would you warn others against using, and why?
+
+     A. I would warn others against using bubble sort, since it has the largest
+     execution mean time. It is definitely not suitable for large data. Even if the
+     data is ordered it will still iterate through the items. When data is very large
+     we cant waste time on unnecessary iterations.
