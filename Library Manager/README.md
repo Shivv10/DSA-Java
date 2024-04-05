@@ -3,7 +3,7 @@ This project involves the implementation of a library management system in Java.
 
 
 Classes Overview:
-Application Class: The main class responsible for reading commands from the input file, executing operations, and displaying results. It serves as the entry point for the program.
+Application Class: The main class responsible for reading commands from the input file, executing operations, and displaying results. It serves as the entry point for the program.<br>
 Book Class: Represents a book entity with attributes such as title, author's first name/initials, author's last name, and a boolean flag indicating whether the book is currently on loan.
 Library Class: Manages a collection of books and provides methods to perform operations like adding books, listing books by author or title, loaning books, and returning books.
 
