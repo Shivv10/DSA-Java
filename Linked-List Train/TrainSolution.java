@@ -1,16 +1,13 @@
 //==============================================================
 // TrainSolution.java
 //
-// COMP 2140 SUMMER 2021 D01
-// ASSIGNMENT 2 QUESTION 2
-// Sample Solution
-//
 // PURPOSE: Model a train using a linked list.
+//
 //==============================================================
 // Testing code has been left in this solution to give you an
 // idea of how incremental development was used to code the
 // solution, testing individual classes and methods as they were
-// added.  This should be removed in a final version.
+// added.
 //
 // This version does not use dummy nodes. Use of dummy nodes is
 // also a valid solution.
