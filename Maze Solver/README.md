@@ -1,18 +1,18 @@
 ```
-Project Description: Maze Pathfinding<br>
-In this project, we aim to develop a program that reads a maze from a file and attempts to find a path through it using two different search algorithms: one using a stack and the other using a queue. The primary goal is to implement depth-first and breadth-first searches, akin to real-world maze navigation scenarios.<br>
-<br>
-Maze Representation:<br>
-The maze is represented as a grid, where each cell can either be a path (denoted by a '.'), a wall (denoted by a '#'), the starting point (denoted by 'S'), or the finish line (denoted by 'F'). When a path is found, it will be marked with an asterisk ('*') from the start to the finish line.<br>
-<br>
-Approach to Path Finding:<br>
-Both search algorithms involve traversing the maze while maintaining a data structure (stack or queue) containing positions to explore. The process includes marking visited positions and updating the maze object accordingly. The pseudocode for both searches is provided below:<br>
+Project Description: Maze Pathfinding
+In this project, we aim to develop a program that reads a maze from a file and attempts to find a path through it using two different search algorithms: one using a stack and the other using a queue. The primary goal is to implement depth-first and breadth-first searches, akin to real-world maze navigation scenarios.
 
-Add start position to data structure<br>
-Mark start position as visited<br>
-while (data structure is not empty):<br>
-    current = position removed from data structure<br>
-    if (current is the finish):<br>
+Maze Representation:
+The maze is represented as a grid, where each cell can either be a path (denoted by a '.'), a wall (denoted by a '#'), the starting point (denoted by 'S'), or the finish line (denoted by 'F'). When a path is found, it will be marked with an asterisk ('*') from the start to the finish line.
+
+Approach to Path Finding:<br>
+Both search algorithms involve traversing the maze while maintaining a data structure (stack or queue) containing positions to explore. The process includes marking visited positions and updating the maze object accordingly. The pseudocode for both searches is provided below:
+
+Add start position to data structure
+Mark start position as visited
+while (data structure is not empty):
+    current = position removed from data structure
+    if (current is the finish):
         exit search
     for (each neighbour of current that is an unvisited path):
         Mark neighbour as visited
