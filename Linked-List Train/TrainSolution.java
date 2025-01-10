@@ -1,16 +1,7 @@
 //==============================================================
-// TrainSolution.java
-//
-// PURPOSE: Model a train using a linked list.
-//
-//==============================================================
-// Testing code has been left in this solution to give you an
-// idea of how incremental development was used to code the
-// solution, testing individual classes and methods as they were
-// added.
-//
-// This version does not use dummy nodes. Use of dummy nodes is
-// also a valid solution.
+
+// PURPOSE: Model a train using a linked list
+
 //==============================================================
 
 import java.io.*;
@@ -22,7 +13,6 @@ import java.util.*;
 // PURPOSE: Read a file of commands and perform requested
 //          operations on a train (doubly-linked list).
 //
-// ARGUMENTS: None (could also pass the filename as an argument)
 //==========================================================
 
 public class TrainSolution {
