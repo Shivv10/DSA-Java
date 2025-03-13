@@ -12,11 +12,3 @@ Hybrid Quick Sort: A modified version of the Quick Sort algorithm that switches 
 Shell Sort: A non-recursive sorting algorithm that uses a sequence of decreasing gaps to sort elements at a distance apart.<br>
 
 
-Sorting Analysis Report:<br>
-Please refer to the separate report file (sorting_report.txt) for detailed answers to the following questions:<br>
-
-Was insertion sort faster than selection sort? Why or why not?<br>
-Was quick sort faster than insertion sort? Why or why not?<br>
-Was hybrid quick sort faster than quick sort? Why or why not?<br>
-Which sort(s) would you recommend to others, and why?<br>
-Which sort(s) would you warn others against using, and why?<br>
